@@ -1,3 +1,5 @@
+#random number math game
+#import the random function
 import random
 print('I will flip a coin 1000 times. Guess how many times it will come up heads. (Press enter to begin)')
 input()
