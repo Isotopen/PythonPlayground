@@ -1,11 +1,11 @@
 import random
 
-rand_num = random.randint(1, 10)
+rand_num = random.randint(1, 100)
 guessed_nums = []
-allowed_guesses = 5
+allowed_guesses = 10
 
 while len(guessed_nums) < allowed_guesses:
-  guess = input("Guess a number between 1 and 10: ")
+  guess = input("Guess a number between 1 and 100: ")
   
   try:
     player_num = int(guess)
@@ -13,8 +13,8 @@ while len(guessed_nums) < allowed_guesses:
     print("That's not a whole number!")
     break
     
-  if not player_num > 0 or not player_num < 11:
-    print("That number isn't between 1 and 10!")
+  if not player_num > 0 or not player_num < 101:
+    print("That number isn't between 1 and 100!")
     break
     
   guessed_nums.append(player_num)
