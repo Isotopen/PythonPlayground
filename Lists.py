@@ -20,3 +20,18 @@ all_doctors
 primary_care_doctors
 temperatures.append(99)
 temperatures.append("Burning up")
+
+
+
+favorite_things = ["raindrops on roses", "whiskers on kittens", "bright copper kettles"]
+favorite_things += ["warm woolen mittens"]
+favorite_things.append(["bright paper packages tied with string"])
+del favorite_things[-1]
+favorite_things.append("bright paper packages tied with string")
+favorite_things.extend(["cream colored ponies", "crisp apple strudels"])
+del favorite_things[1]
+favorite_things.insert(1, "whiskers on kittens")
+
+
+a = [1, 2, 3]
+a.extend("abc")
