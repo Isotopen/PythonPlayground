@@ -12,7 +12,7 @@
 # Your code goes below here.
 def num_teachers(teachers):
     count1 = 0
-    for teacher in teachers:
+    for teachers in teachers:    # change the first teachers into teacher
         count1 += 1
     return count1
 #---------------------------------------------------------------------------------------------------#
@@ -64,3 +64,4 @@ def stats(teachers):
         inner_list.append(len(teachers[key]))
         outer_list.append(inner_list)
     return outer_list
+
