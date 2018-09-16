@@ -1,3 +1,6 @@
+# lists [,]
+# strings "" or ''
+
 languages = ["Python", "Javascript", "Java", "C#", "Ruby", "Swift"]
 print(languages)
 len(languages)
@@ -71,6 +74,9 @@ print(favorite_things)
 print(slice1)
 print(slice2)
 print(sorted_things)
+
+
+
 
 numbers = list(range(20))
 numbers
